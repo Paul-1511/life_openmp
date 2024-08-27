@@ -1,0 +1,10 @@
+#include <omp.h>
+
+#include "life.h"
+
+#define LIVE 1
+#define DEAD 0
+
+int hash();
+
+int chunk();

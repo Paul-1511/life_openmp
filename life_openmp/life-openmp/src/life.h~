@@ -1,0 +1,13 @@
+#ifndef LIFE_H
+#define LIFE_H
+
+typedef struct {
+  int size;
+  unsigned char cells[];
+} Grid;
+
+
+void generation();
+void gridheuristic();
+
+#endif
